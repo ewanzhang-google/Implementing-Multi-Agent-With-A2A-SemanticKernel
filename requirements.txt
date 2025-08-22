@@ -3,3 +3,4 @@ python-a2a
 fastapi
 uvicorn
 a2a-sdk
+a2a-sdk[http-server]
