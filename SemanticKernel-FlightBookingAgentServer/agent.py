@@ -18,7 +18,7 @@ class SemanticKernelFlightBookingAgent:
             service=AzureChatCompletion(
                 api_key="<api_key>", # Replace with your Azure OpenAI API key
                 endpoint="https://<endpoint>.openai.azure.com",  # Ensure you have the correct endpoint and deployment name
-                deployment_name="<deployment_name>", # Replace with your deployment name
+                deployment_name="gpt-4.1", # Replace with your deployment name
                 api_version="2024-12-01-preview",
             ),
             name="Assistant",
