@@ -16,8 +16,8 @@ class SemanticKernelFlightBookingAgent:
         logger.info("Initializing SemanticKernelFlightBookingAgent.")
         self.chat_agent = ChatCompletionAgent(
             service=AzureChatCompletion(
-                api_key="<api_key>", # Replace with your Azure OpenAI API key
-                endpoint="https://<endpoint>.openai.azure.com",  # Ensure you have the correct endpoint and deployment name
+                api_key="3y6IVGelvTthXrxYc9GJ2kXQIk8C3v6aXppdFpAVWxJERKFljRhOJQQJ99BHACYeBjFXJ3w3AAAAACOGh6e3", # Replace with your Azure OpenAI API key
+                endpoint="https://amazingproject.openai.azure.com",  # Ensure you have the correct endpoint and deployment name
                 deployment_name="gpt-4.1", # Replace with your deployment name
                 api_version="2024-12-01-preview",
             ),
